@@ -1,3 +1,16 @@
 #base {
     display: flex;
+    flex-direction: column;
+}
+#pokemon {
+    display: flex;
+}
+.all_pokemon {
+    width: 70%;
+}
+.pokedex {
+    width: 30%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
